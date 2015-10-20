@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="closure.css">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="jquery-2.1.4.js"></script>
+    <script src="closure.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Buy Your Tickets Here</h1>
+        <div class="row">
+          <h3>Adult Tickets</h3>
+          <h4> $25.00</h4>
+          <button id="inc0"> +</button>
+          <input id="sectionTot0"/>
+          <button id="dec0"> -</button>
+          <button id="clr0"> reset</button>
+        </div>
+        <div class="row">
+          <h3>Child Tickets(under 12)</h3>
+          <h4> $15.00 </h4>
+          <button id="inc1"> +</button>
+          <input id="sectionTot1"/>
+          <button id="dec1"> -</button>
+          <button id="clr1"> reset</button>
+        </div>
+        <div class="row">
+          <h3>Senior/Military Tickets</h3>
+          <h4>$20.00</h4>
+          <button id="inc2"> +</button>
+          <input id="sectionTot2"/>
+          <button id="dec2"> -</button>
+          <button id="clr2"> reset</button>
+        </div>
+        <div class="row" id="grand">
+          <h2>Grand Total: $ <p id="final"> </p></h2>
+        </div>
+    </div>
+  </body>
+</html>
